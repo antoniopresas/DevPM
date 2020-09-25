@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* LOGO */
+
+.Dev_PM {
+    font-size: 34px;
+    font-family: "Rubik";
+    color: white !important;
+    vertical-align: super;
+    line-height: 0.868;
+    z-index: 5;
+    border: solid white;
+    padding: 25px 12px;
+    border-radius: 6px;
+}
+
+.devposition {
+    display: inline-flex;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-bottom: 6px;
+    margin-right: -6px;
+}
+
+
+/* Fin LOGO */
