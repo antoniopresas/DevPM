@@ -53,6 +53,16 @@
 /* FIN LOGO FOOTER */
 
 
+/* Vista CONTENIDO */
+
+.viewport {
+    max-height: 100vh;
+}
+
+
+/* Fin Vista CONTENIDO */
+
+
 /* INICIO ANIMATE */
 
 .animate__animated {
