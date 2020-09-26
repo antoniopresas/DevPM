@@ -25,3 +25,29 @@
 
 
 /* Fin LOGO */
+
+
+/* LOGO FOOTER */
+
+.Dev_PMsmall {
+    font-size: 22px;
+    font-family: "Rubik";
+    color: white !important;
+    vertical-align: super;
+    line-height: 0.868;
+    z-index: 5;
+    border: solid white;
+    padding: 25px 12px;
+    border-radius: 6px;
+}
+
+.devpositionsmall {
+    display: inline-flex;
+    font-size: 10px;
+    vertical-align: middle;
+    margin-bottom: 6px;
+    margin-right: -6px;
+}
+
+
+/* FIN LOGO FOOTER */

@@ -2,8 +2,8 @@
     <a class="navbar-brand" href="#">
         <span class="navbar-text Dev_PM">
             <span class="devposition">
-                Dev
-            </span> /PM
+                {{ infoPage.info.titulo0 }}
+            </span> {{ infoPage.info.titulo1 }}
         </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,10 +16,7 @@
                 <a class="nav-link" routerLink="portafolio">Portafolio <span class="sr-only">(current)</span></a>
             </li>
             <li routerLinkActive="active" class="nav-item">
-                <a class="nav-link" href="#">Sobre nosotros</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link" routerLink="sobre-nosotros">Sobre nosotros</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
